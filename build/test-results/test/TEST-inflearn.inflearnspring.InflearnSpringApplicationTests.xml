@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="inflearn.inflearnspring.InflearnSpringApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-25T16:13:02" hostname="song-eunjiui-MacBookPro.local" time="0.31">
+  <properties/>
+  <testcase name="contextLoads()" classname="inflearn.inflearnspring.InflearnSpringApplicationTests" time="0.31"/>
+  <system-out><![CDATA[01:13:01.216 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [InflearnSpringApplicationTests]: using SpringBootContextLoader
+01:13:01.220 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [inflearn.inflearnspring.InflearnSpringApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+01:13:01.220 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [inflearn.inflearnspring.InflearnSpringApplicationTests]: InflearnSpringApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:13:01.238 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [InflearnSpringApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+01:13:01.288 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/song-eunji/Desktop/github/inflearn-spring/build/classes/java/main/inflearn/inflearnspring/InflearnSpringApplication.class]
+01:13:01.290 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration inflearn.inflearnspring.InflearnSpringApplication for test class inflearn.inflearnspring.InflearnSpringApplicationTests
+01:13:01.358 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+01:13:01.359 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+01:13:01.361 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [InflearnSpringApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+01:13:01.362 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [InflearnSpringApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.3)
+
+2023-02-26T01:13:01.592+09:00  INFO 8592 --- [    Test worker] i.i.InflearnSpringApplicationTests       : Starting InflearnSpringApplicationTests using Java 17.0.1 with PID 8592 (started by song-eunji in /Users/song-eunji/Desktop/github/inflearn-spring)
+2023-02-26T01:13:01.593+09:00  INFO 8592 --- [    Test worker] i.i.InflearnSpringApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2023-02-26T01:13:02.304+09:00  INFO 8592 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-02-26T01:13:02.429+09:00  INFO 8592 --- [    Test worker] i.i.InflearnSpringApplicationTests       : Started InflearnSpringApplicationTests in 1.029 seconds (process running for 1.937)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
